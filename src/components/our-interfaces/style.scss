@@ -34,5 +34,44 @@
 }
 
 @media(max-width: 991px) {
- 
+    .our-softwares {
+        margin-top: 64px;
+        padding: 64px 0px;
+        h2 {
+            font-size: 24px;
+        }
+        .text-20-regular {
+            text-align: center;
+            font-size: 16px;
+            max-width: 280px;
+        }
+        .software-card {
+            padding: 0px;
+            padding-top: 32px;
+            .logo {
+                height: 48px;
+            }
+            p {
+                max-width: calc(100% - 30px);
+                margin: 0px auto;
+                margin-bottom: 24px;
+            }
+            div {
+                text-align: center;
+                padding-right: 0px;
+                .default-btn {
+                    margin: 0px auto;
+                    margin-bottom: 24px;
+
+                }
+                
+            }
+            .software-image {
+                width: calc(100% - 30px);
+                height: auto;
+                margin-bottom: 32px;
+                transform: translateX(16px);
+            }
+        }
+    }
 }

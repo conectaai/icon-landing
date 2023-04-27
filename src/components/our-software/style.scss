@@ -46,20 +46,27 @@
 }
 
 @media(max-width: 991px) {
+    .our-softwares {
+        .software-card {
+            margin-bottom: 32px;
+            flex-direction: column;
+        }
+    }
     .our-software {
+        padding-top: 64px;
         h2 {
             text-align: center;
             margin: 0px auto;
             margin-bottom: 40px;
             max-width: 360px;
         }
-        .our-software-cards-container {
-            gap: 0px;
-        }
-        .metrics-card {
-            margin-bottom: 24px;
-            .metric-number {
-                font-size: 32px;
+        .our-software-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .icon {
+                margin: 0px auto;
+                margin-bottom: 16px;
             }
         }
     }

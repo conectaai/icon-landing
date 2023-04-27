@@ -12,7 +12,7 @@ export default function InnovativeSolution() {
             <img src={solutionImage} alt="" className='img-fluid'/>
           </div>
           <div className="col-lg-6">
-            <h2 className='title-32-medium mb-sm mt-xxlg'>Soluções inovadoras para cuidados de saúde eficazes</h2>
+            <h2 className='title-32-medium first-title mb-sm mt-xxlg'>Soluções inovadoras para cuidados de saúde eficazes</h2>
             <p className='mb-xlg'>
               A Icon é uma empresa de tecnologia médica que oferece soluções inovadoras para melhorar a qualidade dos cuidados de saúde. 
               <br></br>

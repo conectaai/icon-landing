@@ -1,7 +1,7 @@
 @import '../../styles/colors', '../../styles/typography.scss';
 
 .default-btn {
-    height: 62px;
+    height: 48px;
     width: fit-content;
     width: -moz-fit-content;
     padding: 0px 28px;
@@ -11,6 +11,9 @@
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     letter-spacing: 0.4px;
     color: $white;
     background-color: $brand-color-2;
@@ -38,6 +41,6 @@
 
 @media(max-width: 991px) {
     .default-btn {
-        height: 56px;
+        height: 48px;
     }   
 } 

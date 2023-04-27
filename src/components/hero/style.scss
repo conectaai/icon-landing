@@ -4,7 +4,7 @@
     padding-top: 48px;
     .hero-text-container {
         max-width: 562px;
-        padding-top: 80px;
+        padding-top: 120px;
         p {
             margin-top: 16px;
         }
@@ -46,28 +46,50 @@
 @media(max-width: 991px) {
     .hero {
         padding-top: 64px;
+        .hero-title {
+            font-size: 24px;
+        }
         .hero-text-container {
+            padding-top: 0px;
             margin: 0px auto;
             text-align: center;
+            margin-bottom: 32px;
+            p {
+                font-size: 15px;
+            }
         }
         .default-btn {
-            margin: 32px auto 80px auto;
+            margin: 32px auto 40px auto;
+        }
+        .hero-cards {
+            height: auto;
+            padding: 32px 0px;
+            .col-lg-4 {
+                &:last-child {
+                    .hero-card {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            .hero-card {
+                margin-bottom: 24px;
+                p {
+                    font-size: 14px;
+                }
+            }
         }
     }
 }
 
 @media(max-width: 768px) {
     .hero {
-        .hero-title {
-            font-size: 32px;
-        }
         .img-container::before {
             height: 280px;
             width: 280px;
         }
         .hero-text-container {
             p {
-                font-size: 16px;
+                font-size: 14px;
             }
         }
     }

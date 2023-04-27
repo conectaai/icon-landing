@@ -37,7 +37,7 @@ export default function Hero() {
               />
             </div>
           </div>
-          <div className="col-lg-5 offset-1">
+          <div className="col-lg-5 offset-lg-1">
             <img src={hero} alt="hero" className='img-fluid'/>
           </div>
         </div>

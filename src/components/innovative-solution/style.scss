@@ -4,6 +4,7 @@
     padding-top: 136px;
     h2 {
         max-width: 502px;
+        text-align: left;
     }
     p {
         font-size: 15px;
@@ -18,9 +19,6 @@
     .innovative-solution {
         text-align: center;
         padding-top: 64px;
-        .banner {
-            margin-top: 64px;
-        }
         img {
             margin: 0px auto;
             margin-bottom: 32px;
@@ -33,6 +31,7 @@
         h2 {
             margin-left: auto;
             margin-right: auto;
+            text-align: center;
         }
         .default-btn {
             margin-left: auto;
@@ -45,7 +44,8 @@
 @media(max-width: 768px) {
     .innovative-solution {
         .title-32-medium {
-            font-size: 26px;
+            font-size: 24px;
+            margin-top: 0px;
         }
         p {
             font-size: 15px;
