@@ -1,0 +1,38 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.our-softwares {
+    background: rgba(115, 103, 240, 0.12);
+    padding: 80px 0px;
+    margin-top: 112px;
+    h2 {
+        margin-bottom: 8px;
+    }
+    .software-card {
+        background-color: $white;
+        border-radius: 24px;
+        display: flex;
+        align-items: center;
+        padding-left: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+        div {
+            padding-right: 32px;
+        }
+        .software-image {
+            height: 286px;
+        }
+        .logo {
+            height: 64px;
+            width: auto;
+            margin-bottom: 18px;
+        }
+        p {
+            margin-bottom: 32px;
+            max-width: 240px;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+ 
+}

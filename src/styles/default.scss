@@ -1,0 +1,20 @@
+@import 'colors', 'typography';
+
+body {
+    font-family: $font-family-1;
+    color: $text-color;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-container {
+    padding: 0px 120px;
+    max-width: 1320px;
+    margin: 0 auto;
+}

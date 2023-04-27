@@ -1,0 +1,35 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.our-solutions {
+    h2 {
+        max-width: 502px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 74px;
+        margin-top: 96px;
+    }
+    .our-solutions-card {
+        padding: 40px 20px 44px 20px;
+        background: rgba(115, 103, 240, 0.12);
+        border-radius: 24px;
+        text-align: center;
+        margin-bottom: 40px;
+        max-width: 242px;
+        aspect-ratio: 1/1;
+        width: 100%;
+        .icon {
+            height: 64px;
+            width: 64px;
+            border-radius: 50%;
+            background-color: $brand-color;
+            margin-bottom: 24px;
+        }
+    }
+    .our-solutions-cards-container {
+        max-width: 1116px;
+        margin: 0px auto;
+        .col-lg-3 {
+            padding: 0px 20px;
+        }
+    }
+}

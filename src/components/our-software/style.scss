@@ -1,0 +1,86 @@
+@import '../../styles/default.scss', '../../styles/typography.scss', '../../styles/spacing.scss';
+
+.our-software {
+    padding-top: 124px;
+    .our-software-cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr; 
+        gap: 40px 48px; 
+    }
+    .our-software-card {
+        padding: 16px 24px;
+        p {
+            max-width: 338px;
+
+        }
+        h4 {
+            margin: 0px;
+            margin-bottom: 8px;
+        }
+    }   
+    .icon {
+        margin-right: 24px;
+        height: 40px;
+        width: 40px;
+        min-width: 40px;
+        aspect-ratio: 1/1;
+        background-color: $brand-color;
+        border-radius: 50%;
+    }
+    h3 {
+        text-align: center;
+        margin-top: 88px;
+    }
+    .metric-label {
+        max-width: 114px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .our-software {
+        .title-32-medium {
+            font-size: 24px;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    .our-software {
+        h2 {
+            text-align: center;
+            margin: 0px auto;
+            margin-bottom: 40px;
+            max-width: 360px;
+        }
+        .our-software-cards-container {
+            gap: 0px;
+        }
+        .metrics-card {
+            margin-bottom: 24px;
+            .metric-number {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .our-software {
+        .our-software-cards-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            .our-software-card {
+                text-align: center;
+                p {
+                    max-width: 100%;
+                }
+            }   
+        }
+        .metrics {
+            h3 {
+                margin-top: 40px;
+            }
+        }
+    }
+}

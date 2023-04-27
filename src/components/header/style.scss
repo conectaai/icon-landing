@@ -1,0 +1,55 @@
+@import '../../styles/default.scss', '../../styles/typography.scss';
+
+header {
+    width: 100%;
+    margin-top: 28px;
+    .transparent-btn {
+        border: 1px solid $gray-medium;
+        border-radius: 5px;
+        width: 92px;
+        margin-right: 16px;
+        height: 38px;
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $gray-medium;
+        transition: 0.3s ease-in-out;
+        &:hover {
+            background-color: $gray-medium;
+            color: $white;
+        }
+    }
+    .header-btn {
+        background: $brand-color;
+        border-radius: 5px;
+        height: 38px;
+        width: 130px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: $white;
+        transition: 0.3s ease-in-out;
+        border: 1px solid transparent;
+        &:hover {
+            background-color: transparent;
+            border-color: $brand-color;
+            color: $brand-color;
+        }
+    }
+    img {
+        height: 56px;
+    }
+}
+
+@media(max-width: 991px) {
+    header {
+        .btns-container {
+            display: none !important;
+        }
+    }
+}
